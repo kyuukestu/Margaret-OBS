@@ -1,0 +1,167 @@
+{
+  "sourcePath": "Esther/Arcs-Narrative-Threads",
+  "showSourcePathAsTitle": true,
+  "validFolderPaths": [
+    "Esther/Arcs-Narrative-Threads"
+  ],
+  "aiOutputFolder": "AI",
+  "actCount": 3,
+  "actLabelsRaw": "Act 1, Act 2, Act 3",
+  "showActLabels": true,
+  "publishStageColors": {
+    "Zero": "#9E70CF",
+    "Author": "#5E85CF",
+    "House": "#DA7847",
+    "Press": "#6FB971"
+  },
+  "subplotColors": [
+    "#EFBDEB",
+    "#a35ca7",
+    "#6461A0",
+    "#314CB6",
+    "#0A81D1",
+    "#98CE00",
+    "#16E0BD",
+    "#78C3FB",
+    "#273C2C",
+    "#A6D8D4",
+    "#FF8600",
+    "#F9E784",
+    "#CEC3C1",
+    "#F3D34A",
+    "#004777",
+    "#8B4513"
+  ],
+  "currentMode": "chronologue",
+  "logApiInteractions": true,
+  "showCompletionEstimate": true,
+  "openaiApiKey": "",
+  "anthropicApiKey": "",
+  "anthropicModelId": "claude-sonnet-4-5-20250929",
+  "geminiApiKey": "",
+  "geminiModelId": "gemini-3-pro-preview",
+  "defaultAiProvider": "openai",
+  "openaiModelId": "gpt-4.1",
+  "enableAiSceneAnalysis": false,
+  "showFullTripletAnalysis": true,
+  "enableZeroDraftMode": false,
+  "metadataRefreshDebounceMs": 10000,
+  "enableSceneTitleAutoExpand": true,
+  "enableHoverDebugLogging": false,
+  "sortByWhenDate": false,
+  "chronologueDurationCapSelection": "auto",
+  "readabilityScale": "normal",
+  "shouldRestoreTimelineOnLoad": false,
+  "aiContextTemplates": [
+    {
+      "id": "commercial_genre",
+      "name": "Commercial Genre Fiction (Balanced Depth)",
+      "prompt": "Act as a developmental editor for a commercial genre novel. Prioritize pacing, clarity, and emotional stakes. Ensure each scene moves the plot or deepens character conflict. Keep prose lean; prefer tension and subtext to exposition. Focus feedback on momentum, scene purpose, and reader engagement.",
+      "isBuiltIn": true
+    },
+    {
+      "id": "literary",
+      "name": "Literary / Character-Driven Fiction",
+      "prompt": "Act as a developmental editor for a literary or character-driven novel. Emphasize emotional resonance, internal conflict, and subtext. Feedback should focus on authenticity of character motivation, narrative voice, and thematic depth. Avoid line-level polish; focus on the psychological realism of each beat.",
+      "isBuiltIn": true
+    },
+    {
+      "id": "young_adult",
+      "name": "Young Adult / Coming-of-Age",
+      "prompt": "Act as a developmental editor for a young adult coming-of-age novel. Focus on pacing, clear emotional arcs, and voice consistency. Ensure stakes feel personal and immediate. Highlight areas where dialogue or internal monologue can better show growth or vulnerability. Keep feedback concise and energetic.",
+      "isBuiltIn": true
+    },
+    {
+      "id": "science_fiction",
+      "name": "Epic or Hard Science Fiction / World-Building Focus",
+      "prompt": "Act as a developmental editor for a science-fiction novel with complex world-building. Balance clarity and immersion; ensure exposition is dramatized through character action or dialogue. Focus feedback on world logic, pacing through discovery, and integrating big ideas without slowing emotional momentum. Prioritize cohesion between technology, society, and theme.",
+      "isBuiltIn": true
+    },
+    {
+      "id": "thriller",
+      "name": "Mystery / Thriller / Suspense",
+      "prompt": "Act as a developmental editor for a mystery or thriller novel. Emphasize pacing, tension, and clarity of motive. Identify where reveals or reversals land too early or too late. Ensure reader curiosity and suspense are sustained through every scene. Keep feedback focused on plot mechanics and emotional rhythm.",
+      "isBuiltIn": true
+    },
+    {
+      "id": "romance",
+      "name": "Romance / Emotional-Arc Focused Fiction",
+      "prompt": "Act as a developmental editor for a romance or emotionally driven narrative. Focus feedback on relationship dynamics, emotional authenticity, and pacing of attraction/conflict/resolution. Ensure internal and external conflicts are intertwined. Highlight where subtext or tension could replace exposition.",
+      "isBuiltIn": true
+    }
+  ],
+  "activeAiContextTemplateId": "commercial_genre",
+  "beatSystem": "Custom",
+  "customBeatSystemName": "Custom",
+  "customBeatSystemBeats": [],
+  "dominantSubplots": {},
+  "globalPovMode": "off",
+  "lastSeenReleaseNotesVersion": "5.0.2|90344e40",
+  "cachedReleaseNotes": {
+    "entries": [
+      {
+        "version": "5.0.2",
+        "title": "5.0.2",
+        "body": "## What's Changed\r\n\r\n### New Features\r\n-  Book Designer Manual mode. Drag to reorder scenes in Preview ([5d3d4f4](https://github.com/EricRhysTaylor/Radial-Timeline/commit/5d3d4f4b5d638481db51fe69fadd2cfcc1958d44))\r\n-- Save templates ([5d3d4f4](https://github.com/EricRhysTaylor/Radial-Timeline/commit/5d3d4f4b5d638481db51fe69fadd2cfcc1958d44))\r\n\r\n### Bug Fixes\r\n- Scoped the settings UI to prevent CSS bleed. ([5d3d4f4](https://github.com/EricRhysTaylor/Radial-Timeline/commit/5d3d4f4b5d638481db51fe69fadd2cfcc1958d44))\r\n",
+        "url": "https://github.com/EricRhysTaylor/Radial-Timeline/releases/tag/untagged-8f7c47764b76859a8745",
+        "publishedAt": "2025-12-30T23:29:25.448Z"
+      },
+      {
+        "version": "5.0.1",
+        "title": "5.0.1",
+        "body": "## What's Changed\r\n\r\n### Bug\r\n- Release script allowed the manifest to not update properly with the new release ([4e14615](https://github.com/EricRhysTaylor/Radial-Timeline/commit/4e146158260bc80fe5228b610749c6ad152227f0)) Peventing Obsidian from detecting and updating plugin.\r\n\r\n### Improvements\r\n- New Release Alert in Timeline now shows versions on hover. Large click zone.\r\n- Update and reorganized wiki ([a83d5aa](https://github.com/EricRhysTaylor/Radial-Timeline/commit/a83d5aab00a8514dbca984d3ce96b74057f90844))\r\n\r\n### Documentation\r\n- Settings inline links to related wiki docs ([a83d5aa](https://github.com/EricRhysTaylor/Radial-Timeline/commit/a83d5aab00a8514dbca984d3ce96b74057f90844))",
+        "url": "https://github.com/EricRhysTaylor/Radial-Timeline/releases/tag/5.0.1",
+        "publishedAt": "2025-12-29T17:45:53Z"
+      },
+      {
+        "version": "5.0.0",
+        "title": "5.0.0",
+        "body": "## Major Release 5.0: A New World\r\n\r\nThis is a major update focusing on customization, quick setup, templates, and advanced world-building features.\r\n\r\n### New & Improved\r\n- **YAML Remapper**: Tie an existing/legacy project into Radial Timeline's base metadata keys.\r\n- **Advanced YAML editor**: Customize the Advanced YAML template in settings by adding, deleting keys to fit your current system. Then create a new note with this template using the Command `Create advanced note`. Or via Book designer.\r\n- **Story Beat Editor**: Edit the custom story beats in settings. Create new beats. Set the Name, Act placement. Reorder. Create.\r\n- **Alien Planet Calendar**:  Track the time in faraway (inter-planetary) time zones. View it using ALT sub-mode in Chronologue Mode.\r\n- **Act Structure Customization**: Now you can have 5 Acts or 7 or more with custom names via Settings customization.\r\n- **Book Designer**: The new modal (accessible from the new Welcome Screen or Command Palette) will let you setup a new story scaffold quickly with mini preview-timeline. Use basic or advance yaml, adjust time increment, set the Acts and  more.\r\n- **New Welcome Screen**: A redesigned welcome screen for new projects (no scenes), featuring better orientation and direct links to resources and the Book Designer button.\r\n\r\n###  Enhanced & Bugs\r\n- **Restyled Modals**: Every single modal in the plugin has been harmonized with a consistent, polished design.\r\n- **Local LLM**: More options and better integration for working with local AI models. Still a work in progress.\r\n- **Chronologue Backdrop Styling**: Updated styles for Alt and Shift backdrop interactions ([8d627a1](https://github.com/EricRhysTaylor/Radial-Timeline/commit/8d627a1c2f4d5950b386e7decb358a7aabbac3e0)).\r\n- **Backdrop Time Alignment**: Now correctly aligns with corresponding scene time indexes in outer ring ([73e0cc0](https://github.com/EricRhysTaylor/Radial-Timeline/commit/73e0cc0f57d623e8efd686dc4a6491690b0639c1)).\r\n- **Tooltips**: New tooltip styling using Obsidian bubbles ([b21e870](https://github.com/EricRhysTaylor/Radial-Timeline/commit/b21e87031ea519db8618a7a1071a8762a8b677c6)).\r\n\r\n",
+        "url": "https://github.com/EricRhysTaylor/Radial-Timeline/releases/tag/5.0.0",
+        "publishedAt": "2025-12-28T23:28:25Z"
+      }
+    ],
+    "majorVersion": "5.0.0",
+    "major": {
+      "version": "5.0.0",
+      "title": "5.0.0",
+      "body": "## Major Release 5.0: A New World\r\n\r\nThis is a major update focusing on customization, quick setup, templates, and advanced world-building features.\r\n\r\n### New & Improved\r\n- **YAML Remapper**: Tie an existing/legacy project into Radial Timeline's base metadata keys.\r\n- **Advanced YAML editor**: Customize the Advanced YAML template in settings by adding, deleting keys to fit your current system. Then create a new note with this template using the Command `Create advanced note`. Or via Book designer.\r\n- **Story Beat Editor**: Edit the custom story beats in settings. Create new beats. Set the Name, Act placement. Reorder. Create.\r\n- **Alien Planet Calendar**:  Track the time in faraway (inter-planetary) time zones. View it using ALT sub-mode in Chronologue Mode.\r\n- **Act Structure Customization**: Now you can have 5 Acts or 7 or more with custom names via Settings customization.\r\n- **Book Designer**: The new modal (accessible from the new Welcome Screen or Command Palette) will let you setup a new story scaffold quickly with mini preview-timeline. Use basic or advance yaml, adjust time increment, set the Acts and  more.\r\n- **New Welcome Screen**: A redesigned welcome screen for new projects (no scenes), featuring better orientation and direct links to resources and the Book Designer button.\r\n\r\n###  Enhanced & Bugs\r\n- **Restyled Modals**: Every single modal in the plugin has been harmonized with a consistent, polished design.\r\n- **Local LLM**: More options and better integration for working with local AI models. Still a work in progress.\r\n- **Chronologue Backdrop Styling**: Updated styles for Alt and Shift backdrop interactions ([8d627a1](https://github.com/EricRhysTaylor/Radial-Timeline/commit/8d627a1c2f4d5950b386e7decb358a7aabbac3e0)).\r\n- **Backdrop Time Alignment**: Now correctly aligns with corresponding scene time indexes in outer ring ([73e0cc0](https://github.com/EricRhysTaylor/Radial-Timeline/commit/73e0cc0f57d623e8efd686dc4a6491690b0639c1)).\r\n- **Tooltips**: New tooltip styling using Obsidian bubbles ([b21e870](https://github.com/EricRhysTaylor/Radial-Timeline/commit/b21e87031ea519db8618a7a1071a8762a8b677c6)).\r\n\r\n",
+      "url": "https://github.com/EricRhysTaylor/Radial-Timeline/releases/tag/5.0.0",
+      "publishedAt": "2025-12-28T23:28:25Z"
+    },
+    "latest": {
+      "version": "5.0.2",
+      "title": "5.0.2",
+      "body": "## What's Changed\r\n\r\n### New Features\r\n-  Book Designer Manual mode. Drag to reorder scenes in Preview ([5d3d4f4](https://github.com/EricRhysTaylor/Radial-Timeline/commit/5d3d4f4b5d638481db51fe69fadd2cfcc1958d44))\r\n-- Save templates ([5d3d4f4](https://github.com/EricRhysTaylor/Radial-Timeline/commit/5d3d4f4b5d638481db51fe69fadd2cfcc1958d44))\r\n\r\n### Bug Fixes\r\n- Scoped the settings UI to prevent CSS bleed. ([5d3d4f4](https://github.com/EricRhysTaylor/Radial-Timeline/commit/5d3d4f4b5d638481db51fe69fadd2cfcc1958d44))\r\n",
+      "url": "https://github.com/EricRhysTaylor/Radial-Timeline/releases/tag/untagged-8f7c47764b76859a8745",
+      "publishedAt": "2025-12-30T23:29:25.448Z"
+    },
+    "patches": [
+      {
+        "version": "5.0.1",
+        "title": "5.0.1",
+        "body": "## What's Changed\r\n\r\n### Bug\r\n- Release script allowed the manifest to not update properly with the new release ([4e14615](https://github.com/EricRhysTaylor/Radial-Timeline/commit/4e146158260bc80fe5228b610749c6ad152227f0)) Peventing Obsidian from detecting and updating plugin.\r\n\r\n### Improvements\r\n- New Release Alert in Timeline now shows versions on hover. Large click zone.\r\n- Update and reorganized wiki ([a83d5aa](https://github.com/EricRhysTaylor/Radial-Timeline/commit/a83d5aab00a8514dbca984d3ce96b74057f90844))\r\n\r\n### Documentation\r\n- Settings inline links to related wiki docs ([a83d5aa](https://github.com/EricRhysTaylor/Radial-Timeline/commit/a83d5aab00a8514dbca984d3ce96b74057f90844))",
+        "url": "https://github.com/EricRhysTaylor/Radial-Timeline/releases/tag/5.0.1",
+        "publishedAt": "2025-12-29T17:45:53Z"
+      }
+    ]
+  },
+  "releaseNotesLastFetched": "2026-02-10T14:10:21.443Z",
+  "localBaseUrl": "http://localhost:11434/v1",
+  "localModelId": "llama3",
+  "localApiKey": "",
+  "localSendPulseToAiReport": true,
+  "enablePlanetaryTime": false,
+  "planetaryProfiles": [],
+  "frontmatterMappings": {},
+  "enableCustomMetadataMapping": false,
+  "enableAdvancedYamlEditor": false,
+  "sceneYamlTemplates": {
+    "base": "Class: Scene              # Type: Scene, Beat, Backdrop\nAct: {{Act}}              # Which act (1-3)\nWhen: {{When}}            # Story chronology date (YYYY-MM-DD 12:30pm)\nDuration: 1 hour         # How long the scene lasts (e.g., \"45 seconds\", \"45s\", \"45sec\", \"2 hours\", \"3days\")\nSynopsis: Short scene summary.                # Brief description of what happens in this scene\nSubplot: {{Subplot}}      # Single subplot (or use array format below for multiple)\nCharacter: {{Character}}  # Characters in the scene (use array format below for multiple)\nPOV:                      # blank, first, you, third, omni, narrator, two, all, count\nStatus: Todo              # Scene status (Todo/Working/Complete)\nDue: {{When}}             # Target completion date (YYYY-MM-DD). When setting Scene to Complete, change this to that day's date for better novel completion estimate\nPublish Stage: Zero       # Revision stage (Zero/Author/House/Press)\nPending Edits:            # Notes for next revision (especially for zero draft mode)\nPulse Update:             # AI-generated scene pulse analysis flag",
+    "advanced": "Class: Scene\nAct: {{Act}}\nWhen: {{When}}\nDuration: 1 hours\nSynopsis: Short scene summary.\nSubplot:\n{{SubplotList}}\nCharacter:\n{{CharacterList}}\nPlace:\n{{PlaceList}}\nQuestions:                           # Analysis Block\nReader Emotion:\nInternal: How do the characters change?\nType:\nShift:\nPublish Stage: Zero\nStatus: Todo\nDue:                                  # Target completion date (YYYY-MM-DD).\nWords:                                # Statistics\nTotal Time:                           # Tracked time spent writing scene\nRevision:                             # Revision count (suggest leaving blank until stage > Zero)\nPending Edits:\nPulse Update: No"
+  },
+  "bookDesignerTemplates": [],
+  "backdropYamlTemplate": "Class: Backdrop                   # Backdrop events appear below the outer ring in Chronologue Mode\nWhen: {{When}}                       # Start Date/Time (YYYY-MM-DD HH:MM)\nEnd: {{End}}                         # End Date/Time (YYYY-MM-DD HH:MM)\nSynopsis: What this backdrop represents and how it shapes the story.",
+  "showEstimate": true,
+  "debug": false
+}
