@@ -51,12 +51,14 @@
             "id": "85d21505156e9beb",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "Margaret/F - Inventory.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "ERS-Obs"
+              "title": "F - Inventory"
             }
           }
         ],
@@ -260,8 +262,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "85d21505156e9beb",
+  "active": "2187f975bb95a8da",
   "lastOpenFiles": [
+    "Margaret/G - Fief-Holdings.md",
+    "Margaret/F - Inventory.md",
+    "Margaret/E - Skills.md",
+    "Margaret/D - Backstory.md",
+    "Margaret/C - Personality.md",
+    "Margaret/B - Appearance.md",
+    "Margaret/A - Bio-Data.md",
+    "Margaret/H - Pokemon/01 - Drifloon/01 - Drifloon.md",
     "README.md",
     "Tags",
     "Esther/Arcs-Narrative-Threads/Arcs-Narrative-Threads.md",
@@ -281,14 +291,6 @@
     "Esther/Esther Rosana Sophys/J - Pokemon/04 - Maciera/Training Notes.md",
     "Esther/Esther Rosana Sophys/J - Pokemon/04 - Maciera/04 - Maciera.md",
     "Esther/Esther Rosana Sophys/J - Pokemon/01 - Pyrrha/Moves.md",
-    "Esther/Esther Rosana Sophys/J - Pokemon/02 - Halay-Alae/Moves.md",
-    "Esther/Esther Rosana Sophys/J - Pokemon/07 - L'Basseau/07 - L'Basseau.md",
-    "Esther/Esther Rosana Sophys/J - Pokemon/01 - Pyrrha/Training Notes.md",
-    "Esther/Esther Rosana Sophys/I - Relationships/I - Relationships.md",
-    "Esther/Esther Rosana Sophys/Esther Rosana Sophys.md",
-    "Esther/Esther Rosana Sophys/I - Relationships/Monty.md",
-    "Esther/Esther Rosana Sophys/I - Relationships/Azumi.md",
-    "Esther/Esther Rosana Sophys/I - Relationships/Nakano.md",
     "Esther/Esther Rosana Sophys/I - Relationships",
     "Pasted image 20260115134515.png",
     "Esther/Esther Rosana Sophys/J - Pokemon/02 - Halay-Alae",
