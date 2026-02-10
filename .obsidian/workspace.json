@@ -60,9 +60,21 @@
               "icon": "lucide-file",
               "title": "F - Inventory"
             }
+          },
+          {
+            "id": "7a74071966d2cd8d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "/"
+              },
+              "icon": "lucide-file",
+              "title": "ERS-Obs"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,7 @@
             }
           },
           {
-            "id": "2187f975bb95a8da",
+            "id": "6893f9a46a8d54d9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -262,10 +274,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2187f975bb95a8da",
+  "active": "6893f9a46a8d54d9",
   "lastOpenFiles": [
-    "Margaret/G - Fief-Holdings.md",
+    "Untitled.md",
     "Margaret/F - Inventory.md",
+    "Margaret/G - Fief-Holdings.md",
     "Margaret/E - Skills.md",
     "Margaret/D - Backstory.md",
     "Margaret/C - Personality.md",
@@ -290,7 +303,6 @@
     "Esther/Esther Rosana Sophys/J - Pokemon/02 - Halay-Alae/Training Notes.md",
     "Esther/Esther Rosana Sophys/J - Pokemon/04 - Maciera/Training Notes.md",
     "Esther/Esther Rosana Sophys/J - Pokemon/04 - Maciera/04 - Maciera.md",
-    "Esther/Esther Rosana Sophys/J - Pokemon/01 - Pyrrha/Moves.md",
     "Esther/Esther Rosana Sophys/I - Relationships",
     "Pasted image 20260115134515.png",
     "Esther/Esther Rosana Sophys/J - Pokemon/02 - Halay-Alae",

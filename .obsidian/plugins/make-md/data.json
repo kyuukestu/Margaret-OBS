@@ -38,15 +38,10 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
+    "/",
     "//Esther/Esther/Esther Rosana Sophys",
     "//Esther/Esther/Esther Rosana Sophys/Esther/Esther Rosana Sophys/J - Pokemon",
-    "//Esther/Esther/Arcs-Narrative-Threads",
-    "//Margaret/Margaret/Pokemon",
-    "/",
-    "//Margaret",
-    "//Margaret/Margaret/Pokemon/Margaret/Pokemon/01 - Drifloon",
-    "//Margaret/Margaret/Pokemon/Margaret/Pokemon/02 -",
-    "//Arcs-Narrative"
+    "//Esther/Esther/Arcs-Narrative-Threads"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
